@@ -1,0 +1,23 @@
+score=int(input())
+grade=""
+
+if score >=95:
+     print("95점 이상")
+     grade="A+"
+elif score >=90:
+     print("90점 이상")
+     grade="A"
+elif score>=80:
+    print("80점 이상")
+    grade="B"
+elif score>=70:
+    print("70점 이상")
+    grade="C"
+elif  score>=60:
+    print("60점 이상")
+    grade="D"
+elif score<60:
+   print("60점 미만")
+   grade="F"
+
+print(grade)
